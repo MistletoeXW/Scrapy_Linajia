@@ -9,8 +9,6 @@ import scrapy
 
 
 class LianjiascrapyItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
     CreatedAt = scrapy.Field()
     UpdatedAt = scrapy.Field()
     PageId = scrapy.Field()
@@ -28,3 +26,15 @@ class LianjiascrapyItem(scrapy.Item):
     TotalPrice = scrapy.Field()
     UnitPrice = scrapy.Field()
     Image = scrapy.Field()
+    Start = scrapy.Field()
+    Visit = scrapy.Field()
+    Publish = scrapy.Field()
+    BuildingType = scrapy.Field()
+    OwnerShip = scrapy.Field()
+    DownPaymentBudget = scrapy.Field()
+    HouseUse = scrapy.Field()
+    CompletionDate = scrapy.Field()
+    Floor = scrapy.Field()
+    Visit7 = scrapy.Field()
+    Visit30 = scrapy.Field()
+    CarouselImages = scrapy.Field()
